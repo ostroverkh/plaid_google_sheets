@@ -18,7 +18,7 @@ client = Client(
 
 # For upload files to google
 GOOGLE_SCOPES = ['https://www.googleapis.com/auth/drive']
-GOOGLE_SERVICE_ACCOUNT_FILE = '/Users/kateosti/Projects/new/quickstart/python/Quickstart.json'
+GOOGLE_SERVICE_ACCOUNT_FILE = '../quickstart/python/Quickstart.json'
 google_credentials = service_account.Credentials.from_service_account_file(
     GOOGLE_SERVICE_ACCOUNT_FILE, scopes=GOOGLE_SCOPES
 )
