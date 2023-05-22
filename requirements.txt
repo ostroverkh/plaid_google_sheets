@@ -3,4 +3,4 @@ numpy==1.18.4
 plaid-python==4.0.0
 google-api-python-client
 openpyxl
-requests==2.20.0
+requests==2.31.0
